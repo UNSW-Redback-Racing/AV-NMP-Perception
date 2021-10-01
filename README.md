@@ -13,14 +13,15 @@ LIDAR data is represented by points (x,y,z) with intensity. A single scan can ha
 - Crop/FOV trimming: Removing points outside limits
 
 ### Segmentation
-We take the filtered data and divide them into planes and objects. This helps identify the road (plane), and other objects (like cones), which we can later use to perform ground removal. A common way to do this is to use the RANSAC algorithm. 
+We take the filtered data and divide them into planes and objects. This helps identify the road (plane), and other objects (like cones), which we can later use to perform ground removal. A common way to do this is to use the RANSAC algorithm. This algorithm depends heavily on the amount of iterations you complete which again comes down to a speed vs accuracy problem. 
 ### Clustering
 Clustering puts points together in sets and helps identify different types of objects. A common way to achieve this is to perform Euclidean clustering (usually implemented using a KDTree). The 3D Libraries should have their own apis written for this which uses the DBSCAN algorithm, but you're welcome to implement another clustering algorithm.
 
 ![image](https://user-images.githubusercontent.com/29827456/135599351-25c5b187-0db6-46e7-b277-8d6cf6f5bf68.png)
 
 ## Submission
-Fork this repository, and clone it. Then work through the three stages. We have provided a basic Python script which just visualises a pcd file for you using Open3D. The final submission should contain all your project files and be able to visualise it (you can just visualise them using the libraries). 
+Fork this repository, and clone it. Then work through the three stages. We have provided a basic Python script which just visualises a pcd file for you using Open3D. The final submission should contain all your project files and be able to visualise it (you can just visualise them using the libraries). You also have to submit a small document (no more than a page) on how you tuned your pre-processing algorithms (downsampling, cropping, ransac, etc.). Include this as a pdf in your repository. 
+
 ## Useful Links
 
 Python: http://www.open3d.org/docs/release/index.html#python-api-index
