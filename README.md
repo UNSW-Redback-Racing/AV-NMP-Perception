@@ -1,4 +1,4 @@
-# AV-NMP-Perception
+# AV NMP Perception
 
 ## Introduction
 The perception team is responsible for how the car perceives its environment and makes sense of it using the information it gets from LIDAR sensors and cameras. This involves pre-processing, cone classification using CNNs, and interfacing those results with SLAM subsystem. The current goal for AV Perception is to setup a LIDAR pipeline (and cameras later on). In this NMP, you'll be working on the pre-processing stage for LIDAR specifically. 
