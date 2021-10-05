@@ -20,7 +20,7 @@ Clustering puts points together in sets and helps identify different types of ob
 ![image](https://user-images.githubusercontent.com/29827456/135599351-25c5b187-0db6-46e7-b277-8d6cf6f5bf68.png)
 
 ## Submission
-Fork this repository, and clone it. Then work through the three stages. We have provided a basic Python script which just visualises a pcd file for you using Open3D. The final submission should contain all your project files and be able to visualise it (you can just visualise them using the libraries). You also have to submit a small document (no more than a page) on how you tuned your pre-processing algorithms (downsampling, cropping, ransac, etc.). Include this as a pdf in your repository. 
+Fork this repository, and clone it. Then work through the three stages. We have provided a basic Python script which just visualises a pcd file for you using Open3D. The final submission should contain all your project files and be able to visualise it (you can just visualise them using the libraries). You also have to submit a small document (no more than 2 pages) on how you tuned your pre-processing algorithms (downsampling, cropping, ransac, etc.). Include this as a pdf in your repository. 
 
 ## Useful Links
 
